@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Produto"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Cores:"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cbBranco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Branco" />
+
+    <CheckBox
+        android:id="@+id/cbPreto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Preto" />
+
+    <CheckBox
+        android:id="@+id/cbVerde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Verde" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tamanho"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rgTamanho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbGrande"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grande" />
+
+        <RadioButton
+            android:id="@+id/rbMedio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Médio" />
+
+        <RadioButton
+            android:id="@+id/rbPequeno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pequeno" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Enviar"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Resultado"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtCores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cores"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtTamanho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tamanhos"
+        android:textSize="20sp" />
+
+</LinearLayout>
